@@ -1,0 +1,29 @@
+test_mode: False
+overwrite_experiment: True
+experiment_name: "Optimize_ML_monthly"
+models: ["Lasso", "HGBR"]
+
+# Training parameters
+train_val_YearsGap: 5 # number of years between train and validation
+n_jobs: 6
+
+# Datasets used
+# cmip6_models: access-cm2, cmcc-esm2, inm-cm4-8, inm-cm5-0, miroc-es2l, mpi-esm1-2-lr, mri-esm2-0, noresm2-mm
+# scenarios: historical, ssp126, ssp245, ssp585
+use_era5: True
+
+cmip6_models:
+- access-cm2
+- cmcc-esm2
+- inm-cm4-8
+- inm-cm5-0
+- miroc-es2l
+- mpi-esm1-2-lr
+- mri-esm2-0
+- noresm2-mm
+
+scenarios:
+- historical
+- ssp126
+- ssp245
+- ssp585

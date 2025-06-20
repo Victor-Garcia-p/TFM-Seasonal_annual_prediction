@@ -1,0 +1,21 @@
+test_mode: False
+overwrite_experiment: True
+experiment_name: "SmallUNet_era5_corrected"
+model_name: "SmallUNet"
+
+# Training parameters
+Lag_index: True      # consider ENSO of the previous year?
+warm_start: False
+num_epochs: 30∫
+save_every_n_epochs: 2
+batch_size: 12
+early_stop: 12  # or specify a number like 3 if you want early stopping after 3 bad epochs
+num_workers: 6  # 0 = no parallelism, use just the main thread
+train_val_YearsGap: 5 # number of years between train and validation
+
+# Datasets used
+# cmip6_models: access-cm2, cmcc-esm2, inm-cm4-8, inm-cm5-0, miroc-es2l, mpi-esm1-2-lr, mri-esm2-0, noresm2-mm
+# scenarios: historical, ssp126, ssp245, ssp585
+
+use_era5: True
+preprocessing_path: "/data/dl20-data/climate_operational/Victor_data preprocessed_datasets_NN_new/"
