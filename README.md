@@ -3,6 +3,11 @@
 This code is part of the final thesis project for the Data Science degree at UPC. The objective is to develop statistical and deep learning models to predict flood and drought indicators at both annual and seasonal timescales. 
 The models are specifically focused on Colombia and are trained using data from dynamical climate models, including ERA5 reanalysis and CMIP6 simulations.
 
+<!-- CONTACT -->
+## Contact
+
+Victor Garcia Pizarro - victorgarciapizarro@gmail.com
+
 <!-- GETTING STARTED -->
 ## Getting Started
 To run the code follow those steps
@@ -43,45 +48,41 @@ Configuration files (.yml) contain all necessary parameters and paths to ensure 
 The others/ directory contains additional scripts and notebooks used to produce visualizations and support analysis for the thesis.
 
 ## Project Structure
-make a better syntax for hithub "## Project Structure
 - ML_seasonal/
    - config_trainML.yml
    - train_ML.py
    - train_ML.ipynb
-│   ├── preprocess_ML.py
-│   ├── preprocess_ML.ipynb
-│   ├── test_ML.ipynb
-│
-├── ML_annual/
-│   ├── config_trainML.yml
-│   ├── train_ML.py
-│   ├── train_ML.ipynb
-│   ├── preprocess_ML.py
-│   ├── preprocess_ML.ipynb
-│   ├── test_ML.ipynb
-│
-├── NN_annual/
-│   ├── config_train.yml
-│   ├── train_NN.py
-│   ├── train_NN.ipynb
-│   ├── test_NN.py
-│   ├── test_NN.ipynb
-│   ├── preprocess_NN.py
-│   ├── preprocess_NN.ipynb
-│   ├── models_NN.py
-│   ├── training_and_architectures.ipynb
-│   ├── results.ipynb
-│
-├── others/
-│   ├── models_functions.py
-│   ├── experiments_functions.py
-│   ├── preprocessing_functions.py
-│   ├── preprocessing_experiments.ipynb
-│   ├── annual_experiments_ML.ipynb
-│   ├── monthly_experiments.ipynb
-│   ├── plot_area_interest.ipynb"
+   - preprocess_ML.py
+   - preprocess_ML.ipynb
+   - test_ML.ipynb
+   
+- ML_annual/
+   - config_trainML.yml
+   - train_ML.py
+   - train_ML.ipynb
+   - preprocess_ML.py
+   - preprocess_ML.ipynb
+   - test_ML.ipynb
 
-<!-- CONTACT -->
-## Contact
+- NN_annual/
+   - config_train.yml
+   - train_NN.py
+   - train_NN.ipynb
+   - test_NN.py
+   - test_NN.ipynb
+   - preprocess_NN.py
+   - preprocess_NN.ipynb
+   - models_NN.py
+   - training_and_architectures.ipynb
+   - results.ipynb
 
-Victor Garcia Pizarro - victorgarciapizarro@gmail.com
+- others/
+   - models_functions.py
+   - experiments_functions.py
+   - preprocessing_functions.py
+   - preprocessing_experiments.ipynb
+   - annual_experiments_ML.ipynb
+   - monthly_experiments.ipynb
+   - plot_area_interest.ipynb"
+
+
