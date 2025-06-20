@@ -43,43 +43,7 @@ Configuration files (.yml) contain all necessary parameters and paths to ensure 
 The others/ directory contains additional scripts and notebooks used to produce visualizations and support analysis for the thesis.
 
 ## Project Structure
-/code
-├── ML_seasonal/
-│   ├── config_trainML.yml
-│   ├── train_ML.py
-│   ├── train_ML.ipynb
-│   ├── preprocess_ML.py
-│   ├── preprocess_ML.ipynb
-│   ├── test_ML.ipynb
-│
-├── ML_annual/
-│   ├── config_trainML.yml
-│   ├── train_ML.py
-│   ├── train_ML.ipynb
-│   ├── preprocess_ML.py
-│   ├── preprocess_ML.ipynb
-│   ├── test_ML.ipynb
-│
-├── NN_annual/
-│   ├── config_train.yml
-│   ├── train_NN.py
-│   ├── train_NN.ipynb
-│   ├── test_NN.py
-│   ├── test_NN.ipynb
-│   ├── preprocess_NN.py
-│   ├── preprocess_NN.ipynb
-│   ├── models_NN.py
-│   ├── training_and_architectures.ipynb
-│   ├── results.ipynb
-│
-├── others/
-│   ├── models_functions.py
-│   ├── experiments_functions.py
-│   ├── preprocessing_functions.py
-│   ├── preprocessing_experiments.ipynb
-│   ├── annual_experiments_ML.ipynb
-│   ├── monthly_experiments.ipynb
-│   ├── plot_area_interest.ipynb
+<pre> /code ├── ML_seasonal/ │ ├── config_trainML.yml │ ├── train_ML.py │ ├── train_ML.ipynb │ ├── preprocess_ML.py │ ├── preprocess_ML.ipynb │ ├── test_ML.ipynb │ ├── ML_annual/ │ ├── config_trainML.yml │ ├── train_ML.py │ ├── train_ML.ipynb │ ├── preprocess_ML.py │ ├── preprocess_ML.ipynb │ ├── test_ML.ipynb │ ├── NN_annual/ │ ├── config_train.yml │ ├── train_NN.py │ ├── train_NN.ipynb │ ├── test_NN.py │ ├── test_NN.ipynb │ ├── preprocess_NN.py │ ├── preprocess_NN.ipynb │ ├── models_NN.py │ ├── training_and_architectures.ipynb │ ├── results.ipynb │ ├── others/ │ ├── models_functions.py │ ├── experiments_functions.py │ ├── preprocessing_functions.py │ ├── preprocessing_experiments.ipynb │ ├── annual_experiments_ML.ipynb │ ├── monthly_experiments.ipynb │ ├── plot_area_interest.ipynb </pre>
    
 <!-- CONTACT -->
 ## Contact
