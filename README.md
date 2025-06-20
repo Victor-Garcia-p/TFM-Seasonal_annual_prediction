@@ -1,3 +1,5 @@
+# Enhancing Seasonal-to-Interannual Climate Predictions seizing windows of opportunity due to natural climate variability
+
 ## Usage
 
 This code is part of the final thesis project for the Data Science degree at UPC. The objective is to develop statistical and deep learning models to predict flood and drought indicators at both annual and seasonal timescales. 
@@ -28,6 +30,14 @@ An easy way to download them is throught Climate data store "https://cds.climate
    ```sh
    conda activate myenv
    ```
+
+## Content
+NN_annual
+-script 1
+-scrip 2
+-script 2
+
+
    
 <!-- CONTACT -->
 ## Contact
