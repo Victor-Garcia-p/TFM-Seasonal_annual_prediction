@@ -35,7 +35,7 @@ An easy way to download them is throught Climate data store "https://cds.climate
    ```
 
 ## Project overview
-This repository is structured by model type and temporal resolution, distinguishing between Machine Learning (ML) models and Neural Network (NN) models
+This repository is structured by model type and temporal resolution, distinguishing between Machine Learning (ML) models and Neural Network (NN) models.
 Each model type is applied seasonally and annually. 
 
 All modeling pipelines follow a consistent structure:
@@ -43,9 +43,7 @@ All modeling pipelines follow a consistent structure:
 - Training scripts and notebooks, using YAML configuration files to define parameters
 - Testing notebooks for model evaluation
 
-Configuration files (.yml) contain all necessary parameters and paths to ensure reproducibility.
-
-The others/ directory contains additional scripts and notebooks used to produce visualizations and support analysis for the thesis.
+The others/ directory contains additional scripts and notebooks used to create other figures of the thesis.
 
 ## Project Structure
 - ML_seasonal/
